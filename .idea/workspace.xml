@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e894875b-df2c-47b5-a2cf-1ff13ad19794" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-07-22T112001.400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/uml/portal_member_register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/uml/portal_member_register.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/shop-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/enums/umsMember/MemberLevelDefaultStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/enums/umsMember/MemberStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/exception/ApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/exception/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/result/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/result/IErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/result/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/META-INF/shop-common.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/enums/umsMember/MemberLevelDefaultStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/enums/umsMember/MemberStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/exception/ApiException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/exception/Asserts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/result/CommonResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/result/IErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/result/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/CommentGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsHelpCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsHelpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsMemberReportMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsPrefrenceAreaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsPrefrenceAreaProductRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsSubjectCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsSubjectCommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsSubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsSubjectProductRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsTopicCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsTopicCommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsTopicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsCartItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsCompanyAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderOperateHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderReturnApplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderReturnReasonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsAlbumMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsAlbumPicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsBrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsCommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsCommentReplayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsFeightTemplateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsMemberPriceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductAttributeCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductAttributeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductAttributeValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductCategoryAttributeRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductFullReductionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductLadderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductOperateLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductVertifyRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsSkuStockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsCouponHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsCouponMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsCouponProductCategoryRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsCouponProductRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsFlashPromotionLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsFlashPromotionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsFlashPromotionProductRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsFlashPromotionSessionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsHomeAdvertiseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsHomeBrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsHomeNewProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsHomeRecommendProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsHomeRecommendSubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsAdminLoginLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsAdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsAdminPermissionRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsAdminRoleRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsGrowthChangeHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsIntegrationChangeHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsIntegrationConsumeSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberLevelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberLoginLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberMemberTagRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberProductCategoryRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberReceiveAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberRuleSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberStatisticsInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberTagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberTaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsResourceCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsResourceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsRoleMenuRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsRolePermissionRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsRoleResourceRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsHelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsHelpCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsHelpCategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsHelpExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsMemberReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsMemberReportExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsPrefrenceArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsPrefrenceAreaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsPrefrenceAreaProductRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsPrefrenceAreaProductRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectCategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectCommentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectProductRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectProductRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopicCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopicCategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopicComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopicCommentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopicExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsCartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsCartItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsCompanyAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsCompanyAddressExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderOperateHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderOperateHistoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderReturnApply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderReturnApplyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderReturnReason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderReturnReasonExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderSettingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsAlbum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsAlbumExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsAlbumPic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsAlbumPicExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsBrandExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsCommentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsCommentReplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsCommentReplayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsFeightTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsFeightTemplateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsMemberPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsMemberPriceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttributeCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttributeCategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttributeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttributeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttributeValueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductCategoryAttributeRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductCategoryAttributeRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductCategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductFullReduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductFullReductionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductLadderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductOperateLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductOperateLogExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductVertifyRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductVertifyRecordExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsSkuStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsSkuStockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCoupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponHistoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponProductCategoryRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponProductCategoryRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponProductRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponProductRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionLogExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionProductRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionProductRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionSessionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeAdvertise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeAdvertiseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeBrandExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeNewProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeNewProductExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeRecommendProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeRecommendProductExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeRecommendSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeRecommendSubjectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminLoginLogExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminPermissionRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminPermissionRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminRoleRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminRoleRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsGrowthChangeHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsGrowthChangeHistoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsIntegrationChangeHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsIntegrationChangeHistoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsIntegrationConsumeSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsIntegrationConsumeSettingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberLevelExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberLoginLogExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberMemberTagRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberMemberTagRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberProductCategoryRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberProductCategoryRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberReceiveAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberReceiveAddressExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberRuleSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberRuleSettingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberStatisticsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberStatisticsInfoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberTagExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberTaskExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMenuExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsPermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsResourceCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsResourceCategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsResourceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRoleMenuRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRoleMenuRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRolePermissionRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRolePermissionRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRoleResourceRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRoleResourceRelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsHelpCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsHelpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsMemberReportMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsPrefrenceAreaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsPrefrenceAreaProductRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsSubjectCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsSubjectCommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsSubjectProductRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsTopicCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsTopicCommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsTopicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsCartItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsCompanyAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderOperateHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderReturnApplyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderReturnReasonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsAlbumMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsAlbumPicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsBrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsCommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsCommentReplayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsFeightTemplateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsMemberPriceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductAttributeCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductAttributeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductAttributeValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductCategoryAttributeRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductFullReductionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductLadderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductOperateLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductVertifyRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsSkuStockMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsCouponHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsCouponMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsCouponProductCategoryRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsCouponProductRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsFlashPromotionLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsFlashPromotionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsFlashPromotionProductRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsFlashPromotionSessionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsHomeAdvertiseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsHomeBrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsHomeNewProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsHomeRecommendProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsHomeRecommendSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsAdminLoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsAdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsAdminPermissionRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsAdminRoleRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsGrowthChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsIntegrationChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsIntegrationConsumeSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberLevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberLoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberMemberTagRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberProductCategoryRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberRuleSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberStatisticsInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberTagMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberTaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsResourceCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsResourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsRoleMenuRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsRolePermissionRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsRoleResourceRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/ShopPortalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/config/MallSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/controller/member/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/domain/MemberDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/service/UmsMemberCacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/service/UmsMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/service/impl/UmsMemberCacheServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-portal/src/test/java/com/tommy/shop/portal/ShopPortalApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/DynamicAccessDecisionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/DynamicSecurityFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/DynamicSecurityMetadataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/DynamicSecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/RestAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/RestfulAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/config/IgnoreUrlsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/service/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/util/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="UML Sequence" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1eOLItmqwA9P2RX2enWDfaJlBCG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-portal/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5213549" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.tommy.shop.portal.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop-portal/src/main/resources" />
+      <recent name="$PROJECT_DIR$/shop-mbg/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tommy.shop.common.enums" />
+      <recent name="com.tommy.shop.security.component" />
+      <recent name="com.tommy.shop" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tommy.shop.common.exception" />
+      <recent name="com.tommy.shop.security.service.impl" />
+      <recent name="com.tommy.shop.portal.service.impl" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:7085/sso/updatePassword" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShopPortalApplication">
+    <configuration name="CommonResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tommy.shop.common.result.CommonResult" />
+      <module name="shop-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tommy.shop.common.result.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlobalExceptionHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tommy.shop.common.exception.GlobalExceptionHandler" />
+      <module name="shop-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tommy.shop.common.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UmsMemberServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tommy.shop.portal.service.impl.UmsMemberServiceImpl" />
+      <module name="shop-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tommy.shop.portal.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopPortalApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShopPortalApplication.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ShopDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tommy.shop.shopdemo.ShopDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tommy.shop.demo.ShopDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopMbgApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-mbg" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tommy.shop.shopmbg.ShopMbgApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopPortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tommy.shop.portal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tommy.shop.portal.ShopPortalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopProtalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-protal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tommy.shop.protal.shopprotal.ShopProtalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tommy.shop.shopsecurity.ShopSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShopPortalApplication" />
+        <item itemvalue="HTTP Request.ShopPortalApplication#1" />
+        <item itemvalue="Application.CommonResult" />
+        <item itemvalue="Application.GlobalExceptionHandler" />
+        <item itemvalue="Application.UmsMemberServiceImpl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e894875b-df2c-47b5-a2cf-1ff13ad19794" name="Default Changelist" comment="" />
+      <created>1594187615528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594187615528</updated>
+      <workItem from="1594187619302" duration="14181000" />
+      <workItem from="1594350813708" duration="24963000" />
+      <workItem from="1594726149826" duration="585000" />
+      <workItem from="1594734486780" duration="593000" />
+      <workItem from="1594739222747" duration="2534000" />
+      <workItem from="1594746972795" duration="17253000" />
+      <workItem from="1594911048505" duration="159000" />
+      <workItem from="1594913180862" duration="4219000" />
+      <workItem from="1595034539168" duration="2080000" />
+      <workItem from="1595041979878" duration="14133000" />
+      <workItem from="1595234135132" duration="11348000" />
+      <workItem from="1595294279860" duration="11522000" />
+      <workItem from="1595430533064" duration="2122000" />
+      <workItem from="1595834623539" duration="2373000" />
+      <workItem from="1595840759992" duration="744000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="100" key="#Project_Structure" timestamp="1594782792982">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="320" y="100" key="#Project_Structure/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1594782792982" />
+    <state x="320" y="100" key="#Project_Structure/0.23.1440.820@0.23.1440.820" timestamp="1594634550979" />
+    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1595236897570">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595236897570" />
+    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1594747647208" />
+    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.820@0.23.1440.820" timestamp="1595231662810" />
+    <state x="457" y="219" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1594747472864">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="457" y="219" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1594698318529" />
+    <state x="457" y="219" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1594747472864" />
+    <state x="332" y="111" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1594285986852">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="332" y="111" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1594285986852" />
+    <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594623769811">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1594623769811" />
+    <state x="458" y="188" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594287397707" />
+    <state x="483" y="146" key="#xdebugger.evaluate" timestamp="1595431557811">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595242457340" />
+    <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595431557811" />
+    <state width="451" height="446" key="DebuggerActiveHint" timestamp="1595432112201">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="451" height="446" key="DebuggerActiveHint/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432112200" />
+    <state width="1398" height="170" key="GridCell.Tab.0.bottom" timestamp="1595467521259">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.0.bottom/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473640" />
+    <state width="1398" height="117" key="GridCell.Tab.0.bottom/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595400023499" />
+    <state width="1398" height="170" key="GridCell.Tab.0.bottom/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432375686" />
+    <state width="1398" height="170" key="GridCell.Tab.0.bottom/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521259" />
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1595234774436" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625278" />
+    <state width="1398" height="170" key="GridCell.Tab.0.center" timestamp="1595467521259">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.0.center/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473639" />
+    <state width="1398" height="117" key="GridCell.Tab.0.center/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595400023498" />
+    <state width="1398" height="170" key="GridCell.Tab.0.center/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432375685" />
+    <state width="1398" height="170" key="GridCell.Tab.0.center/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521259" />
+    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1595234774435" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625277" />
+    <state width="1398" height="170" key="GridCell.Tab.0.left" timestamp="1595467521259">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.0.left/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473638" />
+    <state width="1398" height="117" key="GridCell.Tab.0.left/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595400023498" />
+    <state width="1398" height="170" key="GridCell.Tab.0.left/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432375685" />
+    <state width="1398" height="170" key="GridCell.Tab.0.left/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521259" />
+    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1595234774434" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625273" />
+    <state width="1398" height="170" key="GridCell.Tab.0.right" timestamp="1595467521259">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.0.right/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473639" />
+    <state width="1398" height="117" key="GridCell.Tab.0.right/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595400023499" />
+    <state width="1398" height="170" key="GridCell.Tab.0.right/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432375685" />
+    <state width="1398" height="170" key="GridCell.Tab.0.right/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521259" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1595234774435" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625278" />
+    <state width="1398" height="170" key="GridCell.Tab.1.bottom" timestamp="1595467521260">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.1.bottom/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473505" />
+    <state width="1398" height="117" key="GridCell.Tab.1.bottom/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595400023500" />
+    <state width="1398" height="170" key="GridCell.Tab.1.bottom/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432509999" />
+    <state width="1398" height="170" key="GridCell.Tab.1.bottom/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521260" />
+    <state width="1398" height="191" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1595234774295" />
+    <state width="1398" height="181" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625279" />
+    <state width="1398" height="170" key="GridCell.Tab.1.center" timestamp="1595467521260">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.1.center/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473504" />
+    <state width="1398" height="117" key="GridCell.Tab.1.center/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595400023500" />
+    <state width="1398" height="170" key="GridCell.Tab.1.center/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432509998" />
+    <state width="1398" height="170" key="GridCell.Tab.1.center/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521260" />
+    <state width="1398" height="191" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1595234774294" />
+    <state width="1398" height="181" key="GridCell.Tab.1.center/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625278" />
+    <state width="1398" height="170" key="GridCell.Tab.1.left" timestamp="1595467521260">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.1.left/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473504" />
+    <state width="1398" height="117" key="GridCell.Tab.1.left/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595400023499" />
+    <state width="1398" height="170" key="GridCell.Tab.1.left/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432509997" />
+    <state width="1398" height="170" key="GridCell.Tab.1.left/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521260" />
+    <state width="1398" height="191" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1595234774294" />
+    <state width="1398" height="181" key="GridCell.Tab.1.left/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625278" />
+    <state width="1398" height="170" key="GridCell.Tab.1.right" timestamp="1595467521260">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.1.right/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473505" />
+    <state width="1398" height="117" key="GridCell.Tab.1.right/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595400023500" />
+    <state width="1398" height="170" key="GridCell.Tab.1.right/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432509999" />
+    <state width="1398" height="170" key="GridCell.Tab.1.right/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521260" />
+    <state width="1398" height="191" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1595234774295" />
+    <state width="1398" height="181" key="GridCell.Tab.1.right/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625278" />
+    <state width="1398" height="170" key="GridCell.Tab.2.bottom" timestamp="1595467521262">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.2.bottom/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473507" />
+    <state width="1398" height="73" key="GridCell.Tab.2.bottom/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595246511056" />
+    <state width="1398" height="170" key="GridCell.Tab.2.bottom/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432375540" />
+    <state width="1398" height="170" key="GridCell.Tab.2.bottom/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521262" />
+    <state width="1398" height="191" key="GridCell.Tab.2.bottom/0.23.1440.820@0.23.1440.820" timestamp="1595234774297" />
+    <state width="1398" height="181" key="GridCell.Tab.2.bottom/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625281" />
+    <state width="1398" height="170" key="GridCell.Tab.2.center" timestamp="1595467521261">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.2.center/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473506" />
+    <state width="1398" height="73" key="GridCell.Tab.2.center/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595246511056" />
+    <state width="1398" height="170" key="GridCell.Tab.2.center/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432375539" />
+    <state width="1398" height="170" key="GridCell.Tab.2.center/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521261" />
+    <state width="1398" height="191" key="GridCell.Tab.2.center/0.23.1440.820@0.23.1440.820" timestamp="1595234774296" />
+    <state width="1398" height="181" key="GridCell.Tab.2.center/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625281" />
+    <state width="1398" height="170" key="GridCell.Tab.2.left" timestamp="1595467521261">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.2.left/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473506" />
+    <state width="1398" height="73" key="GridCell.Tab.2.left/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595246511055" />
+    <state width="1398" height="170" key="GridCell.Tab.2.left/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432375539" />
+    <state width="1398" height="170" key="GridCell.Tab.2.left/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521261" />
+    <state width="1398" height="191" key="GridCell.Tab.2.left/0.23.1440.820@0.23.1440.820" timestamp="1595234774295" />
+    <state width="1398" height="181" key="GridCell.Tab.2.left/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625281" />
+    <state width="1398" height="170" key="GridCell.Tab.2.right" timestamp="1595467521261">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1878" height="301" key="GridCell.Tab.2.right/0.23.1440.820/-1920.-90.1920.1057@-1920.-90.1920.1057" timestamp="1595210473507" />
+    <state width="1398" height="73" key="GridCell.Tab.2.right/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595246511056" />
+    <state width="1398" height="170" key="GridCell.Tab.2.right/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595432375539" />
+    <state width="1398" height="170" key="GridCell.Tab.2.right/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1595467521261" />
+    <state width="1398" height="191" key="GridCell.Tab.2.right/0.23.1440.820@0.23.1440.820" timestamp="1595234774296" />
+    <state width="1398" height="181" key="GridCell.Tab.2.right/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594721625281" />
+    <state x="258" y="96" key="Maven.ArtifactSearchDialog" timestamp="1594291007209">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="258" y="96" key="Maven.ArtifactSearchDialog/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1594291007209" />
+    <state x="208" y="23" width="1024" height="820" key="SettingsEditor" timestamp="1594748642825">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="208" y="23" width="1024" height="820" key="SettingsEditor/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1594633731351" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1594748642825" />
+    <state x="503" y="219" key="chooseDestDirectoryDialog" timestamp="1594634286150">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="503" y="219" key="chooseDestDirectoryDialog/0.23.1440.820@0.23.1440.820" timestamp="1594634286150" />
+    <state x="374" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1595042929208">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="374" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595042929208" />
+    <state x="374" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1594746993810" />
+    <state x="288" y="-719" width="1027" height="423" key="dock-window-1" timestamp="1595431736698">
+      <screen x="-257" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="-1920" y="-90" width="1920" height="1000" key="dock-window-1/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595398536273" />
+    <state x="288" y="-719" width="1027" height="423" key="dock-window-1/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595431736698" />
+    <state x="-1920" y="-90" width="1920" height="1000" maximized="true" key="dock-window-1/0.23.1440.820@0.23.1440.820" timestamp="1595396864034" />
+    <state x="-1283" y="-90" width="929" height="510" key="dock-window-1/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594287576545" />
+    <state x="-1386" y="-41" width="962" height="623" key="dock-window-2" timestamp="1594638421868">
+      <screen x="-1920" y="-90" width="1920" height="1057" />
+    </state>
+    <state x="-1386" y="-41" width="962" height="623" key="dock-window-2/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1594638421868" />
+    <state x="54" y="23" width="962" height="623" key="dock-window-2/0.23.1440.820@0.23.1440.820" timestamp="1594634015868" />
+    <state x="458" y="194" key="extract.method.dialog" timestamp="1595254770586">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="458" y="194" key="extract.method.dialog/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595254770586" />
+    <state x="458" y="194" key="extract.method.dialog/0.23.1440.820@0.23.1440.820" timestamp="1595233554846" />
+    <state x="317" y="197" width="1123" height="472" key="find.popup" timestamp="1595246145917">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="317" y="197" width="1123" height="472" key="find.popup/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595246145917" />
+    <state x="317" y="197" width="1123" height="472" key="find.popup/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1594741224886" />
+    <state x="375" y="197" width="689" height="472" key="find.popup/0.23.1440.820@0.23.1440.820" timestamp="1594635052096" />
+    <state x="97" y="133" key="new project wizard" timestamp="1594623731227">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="97" y="133" key="new project wizard/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1594623731227" />
+    <state x="97" y="141" key="new project wizard/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594287330117" />
+    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup" timestamp="1595332841761">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595332841761" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/service/impl/RedisServiceImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

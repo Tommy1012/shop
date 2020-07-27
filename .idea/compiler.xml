@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/shop-portal/src/test/java/com/tommy/shop/portal/ShopPortalApplicationTests.java" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shop-mbg" />
+        <module name="shop-protal" />
+        <module name="shop-security" />
+        <module name="shop-common" />
+        <module name="shop-portal" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shop-demo" target="1.8" />
+      <module name="shop-protal" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shop-common" options="-parameters" />
+      <module name="shop-demo" options="-parameters" />
+      <module name="shop-mbg" options="-parameters" />
+      <module name="shop-portal" options="-parameters" />
+      <module name="shop-protal" options="-parameters" />
+      <module name="shop-security" options="-parameters" />
+    </option>
+  </component>
+</project>

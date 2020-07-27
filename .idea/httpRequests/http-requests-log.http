@@ -1,0 +1,6 @@
+POST http://127.0.0.1:7085/sso/updatePassword
+
+<> 2020-07-22T112001.400.json
+
+###
+

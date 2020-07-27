@@ -1,0 +1,18 @@
+@startuml
+scale 2
+start
+:输入账密/手机/验证码开始注册;
+if (效验验证码?) then (正确)
+
+ if(检查手机是否存在？) then (不存在)
+
+ partition Transactional {
+ : 创建用户并设置初始等级;
+ }
+ else (存在)
+ endif;
+else (存在)
+ endif;
+ :结束(抛出异常信息);
+stop
+@enduml
