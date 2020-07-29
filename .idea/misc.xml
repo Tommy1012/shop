@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/shop-protal/pom.xml" />
         <option value="$PROJECT_DIR$/shop-portal/pom.xml" />
         <option value="$PROJECT_DIR$/shop-security/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-search/pom.xml" />
+        <option value="$PROJECT_DIR$/shop-admin/pom.xml" />
       </list>
     </option>
   </component>

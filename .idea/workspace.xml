@@ -2,384 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e894875b-df2c-47b5-a2cf-1ff13ad19794" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-07-22T112001.400.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/uml/portal_member_register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/uml/portal_member_register.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/shop-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/enums/umsMember/MemberLevelDefaultStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/enums/umsMember/MemberStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/exception/ApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/exception/Asserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/result/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/result/IErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/src/main/java/com/tommy/shop/common/result/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/META-INF/shop-common.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/enums/umsMember/MemberLevelDefaultStatusEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/enums/umsMember/MemberStatusEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/exception/ApiException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/exception/Asserts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/result/CommonResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/result/IErrorCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-common/target/classes/com/tommy/shop/common/result/ResultCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/CommentGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsHelpCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsHelpMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsMemberReportMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsPrefrenceAreaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsPrefrenceAreaProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsSubjectCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsSubjectCommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsSubjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsSubjectProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsTopicCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsTopicCommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/CmsTopicMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsCartItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsCompanyAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderOperateHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderReturnApplyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderReturnReasonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/OmsOrderSettingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsAlbumMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsAlbumPicMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsCommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsCommentReplayMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsFeightTemplateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsMemberPriceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductAttributeCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductAttributeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductAttributeValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductCategoryAttributeRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductFullReductionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductLadderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductOperateLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsProductVertifyRecordMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/PmsSkuStockMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsCouponHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsCouponMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsCouponProductCategoryRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsCouponProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsFlashPromotionLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsFlashPromotionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsFlashPromotionProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsFlashPromotionSessionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsHomeAdvertiseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsHomeBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsHomeNewProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsHomeRecommendProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/SmsHomeRecommendSubjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsAdminLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsAdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsAdminPermissionRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsAdminRoleRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsGrowthChangeHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsIntegrationChangeHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsIntegrationConsumeSettingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberLevelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberMemberTagRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberProductCategoryRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberReceiveAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberRuleSettingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberStatisticsInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberTagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMemberTaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsPermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsResourceCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsResourceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsRoleMenuRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsRolePermissionRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/mapper/UmsRoleResourceRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsHelp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsHelpCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsHelpCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsHelpExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsMemberReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsMemberReportExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsPrefrenceArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsPrefrenceAreaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsPrefrenceAreaProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsPrefrenceAreaProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectCommentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsSubjectProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopicCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopicCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopicComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopicCommentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/CmsTopicExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsCartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsCartItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsCompanyAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsCompanyAddressExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderOperateHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderOperateHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderReturnApply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderReturnApplyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderReturnReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderReturnReasonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/OmsOrderSettingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsAlbum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsAlbumExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsAlbumPic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsAlbumPicExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsBrandExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsCommentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsCommentReplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsCommentReplayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsFeightTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsFeightTemplateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsMemberPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsMemberPriceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttributeCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttributeCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttributeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttributeValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductAttributeValueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductCategoryAttributeRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductCategoryAttributeRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductFullReduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductFullReductionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductLadderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductOperateLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductOperateLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductVertifyRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsProductVertifyRecordExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsSkuStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/PmsSkuStockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCoupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponProductCategoryRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponProductCategoryRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsCouponProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsFlashPromotionSessionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeAdvertise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeAdvertiseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeBrandExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeNewProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeNewProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeRecommendProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeRecommendProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeRecommendSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/SmsHomeRecommendSubjectExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminLoginLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminPermissionRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminPermissionRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminRoleRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsAdminRoleRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsGrowthChangeHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsGrowthChangeHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsIntegrationChangeHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsIntegrationChangeHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsIntegrationConsumeSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsIntegrationConsumeSettingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberLevelExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberLoginLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberMemberTagRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberMemberTagRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberProductCategoryRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberProductCategoryRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberReceiveAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberReceiveAddressExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberRuleSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberRuleSettingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberStatisticsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberStatisticsInfoExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberTagExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMemberTaskExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsMenuExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsPermissionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsResourceCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsResourceCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsResourceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRoleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRoleMenuRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRoleMenuRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRolePermissionRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRolePermissionRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRoleResourceRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/java/com/tommy/shop/model/UmsRoleResourceRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsHelpCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsHelpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsMemberReportMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsPrefrenceAreaMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsPrefrenceAreaProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsSubjectCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsSubjectCommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsSubjectMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsSubjectProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsTopicCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsTopicCommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/CmsTopicMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsCartItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsCompanyAddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderOperateHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderReturnApplyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderReturnReasonMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/OmsOrderSettingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsAlbumMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsAlbumPicMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsBrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsCommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsCommentReplayMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsFeightTemplateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsMemberPriceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductAttributeCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductAttributeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductAttributeValueMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductCategoryAttributeRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductFullReductionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductLadderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductOperateLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsProductVertifyRecordMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/PmsSkuStockMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsCouponHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsCouponMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsCouponProductCategoryRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsCouponProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsFlashPromotionLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsFlashPromotionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsFlashPromotionProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsFlashPromotionSessionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsHomeAdvertiseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsHomeBrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsHomeNewProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsHomeRecommendProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/SmsHomeRecommendSubjectMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsAdminLoginLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsAdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsAdminPermissionRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsAdminRoleRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsGrowthChangeHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsIntegrationChangeHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsIntegrationConsumeSettingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberLevelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberLoginLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberMemberTagRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberProductCategoryRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberRuleSettingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberStatisticsInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberTagMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMemberTaskMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsPermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsResourceCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsResourceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsRoleMenuRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsRolePermissionRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/com/tommy/shop/mapper/UmsRoleResourceRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/generator.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-mbg/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/ShopPortalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/config/MallSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/config/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/controller/member/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/domain/MemberDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/service/UmsMemberCacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/service/UmsMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/service/impl/UmsMemberCacheServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-portal/src/test/java/com/tommy/shop/portal/ShopPortalApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/DynamicAccessDecisionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/DynamicSecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/DynamicSecurityMetadataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/DynamicSecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/RestAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/component/RestfulAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/config/IgnoreUrlsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop-security/src/main/java/com/tommy/shop/security/util/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,11 +49,12 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/shop-portal/src/main/java/com/tommy/shop/portal" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop-portal/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5213549" />
@@ -441,19 +67,20 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.tommy.shop.portal.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/shop-portal/src/main/resources" />
-      <recent name="$PROJECT_DIR$/shop-mbg/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tommy.shop.common.exception" />
+      <recent name="com.tommy.shop.security.service.impl" />
+      <recent name="com.tommy.shop.portal.service.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.tommy.shop.common.enums" />
       <recent name="com.tommy.shop.security.component" />
       <recent name="com.tommy.shop" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tommy.shop.common.exception" />
-      <recent name="com.tommy.shop.security.service.impl" />
-      <recent name="com.tommy.shop.portal.service.impl" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/shop-portal/src/main/resources" />
+      <recent name="$PROJECT_DIR$/shop-mbg/src/main/resources" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -512,6 +139,13 @@
     <configuration name="ShopPortalApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShopPortalApplication.http" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="ShopAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tommy.shop.admin.ShopAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShopDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shop-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tommy.shop.shopdemo.ShopDemoApplication" />
@@ -549,6 +183,13 @@
     <configuration name="ShopProtalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shop-protal" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tommy.shop.protal.shopprotal.ShopProtalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tommy.shopsearch.ShopSearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -594,18 +235,40 @@
       <workItem from="1595294279860" duration="11522000" />
       <workItem from="1595430533064" duration="2122000" />
       <workItem from="1595834623539" duration="2373000" />
-      <workItem from="1595840759992" duration="744000" />
+      <workItem from="1595840759992" duration="7937000" />
+      <workItem from="1595940419662" duration="255000" />
+      <workItem from="1596021494577" duration="421000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1595841712147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595841712147</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1596021553693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596021553693</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="100" key="#Project_Structure" timestamp="1594782792982">
+    <state x="320" y="100" key="#Project_Structure" timestamp="1596022018193">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="320" y="100" key="#Project_Structure/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1594782792982" />
+    <state x="320" y="100" key="#Project_Structure/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1596022018193" />
     <state x="320" y="100" key="#Project_Structure/0.23.1440.820@0.23.1440.820" timestamp="1594634550979" />
     <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1595236897570">
       <screen x="0" y="23" width="1440" height="820" />
@@ -632,6 +295,11 @@
     </state>
     <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595242457340" />
     <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1595431557811" />
+    <state x="427" y="44" key="CommitChangelistDialog2" timestamp="1596022065054">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="427" y="44" key="CommitChangelistDialog2/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1596022065054" />
+    <state x="2009" y="-28" key="CommitChangelistDialog2/0.23.1440.820/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1595841710587" />
     <state width="451" height="446" key="DebuggerActiveHint" timestamp="1595432112201">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
@@ -753,6 +421,11 @@
     </state>
     <state x="208" y="23" width="1024" height="820" key="SettingsEditor/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1594633731351" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1594748642825" />
+    <state x="420" y="222" key="Vcs.Push.Dialog.v2" timestamp="1596021557967">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="420" y="222" key="Vcs.Push.Dialog.v2/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1596021557967" />
+    <state x="2000" y="99" key="Vcs.Push.Dialog.v2/0.23.1440.820/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1595841767605" />
     <state x="503" y="219" key="chooseDestDirectoryDialog" timestamp="1594634286150">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
@@ -785,10 +458,11 @@
     <state x="317" y="197" width="1123" height="472" key="find.popup/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1595246145917" />
     <state x="317" y="197" width="1123" height="472" key="find.popup/0.23.1440.820/-257.-1057.1920.1057@0.23.1440.820" timestamp="1594741224886" />
     <state x="375" y="197" width="689" height="472" key="find.popup/0.23.1440.820@0.23.1440.820" timestamp="1594635052096" />
-    <state x="97" y="133" key="new project wizard" timestamp="1594623731227">
+    <state x="97" y="133" key="new project wizard" timestamp="1596021843125">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="97" y="133" key="new project wizard/0.23.1440.820/-1920.-90.1920.1057@0.23.1440.820" timestamp="1594623731227" />
+    <state x="97" y="133" key="new project wizard/0.23.1440.820/1440.-157.1920.1057@0.23.1440.820" timestamp="1596021843125" />
     <state x="97" y="141" key="new project wizard/0.23.1440.877/-1920.-90.1920.1000@0.23.1440.877" timestamp="1594287330117" />
     <state x="385" y="167" width="670" height="676" key="search.everywhere.popup" timestamp="1595332841761">
       <screen x="0" y="23" width="1440" height="820" />
