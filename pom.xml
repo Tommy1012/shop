@@ -10,10 +10,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>shop-demo</module>
         <module>shop-mbg</module>
         <module>shop-common</module>
         <module>shop-portal</module>
+        <module>shop-admin</module>
         <module>shop-security</module>
     </modules>
 

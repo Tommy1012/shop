@@ -86,6 +86,7 @@ public class MemberController {
 
     /**
      * 登录
+     * note：SpringSecurity+JWT来实现登录认证，逻辑抽取到了mall-security模块
      *
      * @param username
      * @param password
