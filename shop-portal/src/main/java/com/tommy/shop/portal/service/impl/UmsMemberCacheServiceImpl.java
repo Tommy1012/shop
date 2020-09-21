@@ -2,7 +2,7 @@ package com.tommy.shop.portal.service.impl;
 
 import com.tommy.shop.model.UmsMember;
 import com.tommy.shop.portal.service.UmsMemberCacheService;
-import com.tommy.shop.security.service.RedisService;
+import com.tommy.shop.common.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

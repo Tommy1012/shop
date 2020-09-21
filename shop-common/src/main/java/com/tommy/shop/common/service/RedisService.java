@@ -1,4 +1,4 @@
-package com.tommy.shop.security.service;
+package com.tommy.shop.common.service;
 
 /**
  * redis操作 service

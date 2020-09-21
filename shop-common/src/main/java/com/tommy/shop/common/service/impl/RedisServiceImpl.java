@@ -1,6 +1,6 @@
-package com.tommy.shop.security.service.impl;
+package com.tommy.shop.common.service.impl;
 
-import com.tommy.shop.security.service.RedisService;
+import com.tommy.shop.common.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;

@@ -1,5 +1,7 @@
 package com.tommy.shop.admin.java.com.tommy.shop.controller.ums;
 
+import com.google.common.collect.Maps;
+import com.tommy.shop.admin.java.com.tommy.shop.dto.UmsAdminLoginParam;
 import com.tommy.shop.admin.java.com.tommy.shop.dto.UmsAdminParam;
 import com.tommy.shop.admin.java.com.tommy.shop.service.ums.UmsAdminService;
 import com.tommy.shop.common.result.CommonResult;
@@ -10,11 +12,12 @@ import io.swagger.annotations.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.StringUtils;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Map;
 
 /**
  * 后台用户管理
@@ -40,19 +43,32 @@ public class AdminController {
      * 后台用户注册
      *
      * @param umsAdminParam
-     * @param result
      * @author chengk
      * @date 2020/8/20 11:11 上午
      */
     @ApiOperation(value = "用户注册")
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     @ResponseBody
-    public CommonResult<UmsAdmin> register(@RequestBody UmsAdminParam umsAdminParam, BindingResult result) {
+    public CommonResult<UmsAdmin> register(@RequestBody UmsAdminParam umsAdminParam) {
         UmsAdmin umsAdmin = adminService.register(umsAdminParam);
         if (umsAdmin == null) {
             return CommonResult.failed("用户注册失败!");
         }
         return CommonResult.success(umsAdmin);
+    }
+
+    @ApiOperation(value = "用户登录并返回token")
+    @PostMapping(value = "/login")
+    @ResponseBody
+    public CommonResult login(@Validated @RequestBody UmsAdminLoginParam umsAdminLoginParam){
+        String token = adminService.login(umsAdminLoginParam.getUsername(),umsAdminLoginParam.getPassword());
+        if(StringUtils.isEmpty(token)){
+            return CommonResult.validateFailed("用户名或者密码错误");
+        }
+        Map<String,String> tokenMap = Maps.newHashMap();
+        tokenMap.put("token",token);
+        tokenMap.put("tokenHead",tokenHeader);
+        return CommonResult.success(tokenMap);
     }
 
 
