@@ -9,13 +9,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shop-mbg" />
+        <module name="shop-portal" />
+        <module name="shop-protal" />
         <module name="shop-search" />
         <module name="shop-common" />
-        <module name="shop-admin" />
         <module name="shop-security" />
-        <module name="shop-mbg" />
-        <module name="shop-protal" />
-        <module name="shop-portal" />
+        <module name="shop-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
