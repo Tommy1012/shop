@@ -32,7 +32,12 @@ public class Swagger2Config {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
+                //为当前包下controller生成api文档
                 .apis(RequestHandlerSelectors.basePackage("com.tommy.shop.portal.controller"))
+                //为有api注解的controller生成api文档
+                //.apis(RequestHandlerSelectors.withClassAnnotation(Api.class))
+                //为有api注解的方法生成api文档
+                //.apis(RequestHandlerSelectors.withMethodAnnotation(Api.class));
                 .paths(PathSelectors.any())
                 .build()
                 .securitySchemes(securitySchemes())
