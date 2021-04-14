@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author chengk
  * @date 2020/8/19 4:57 下午
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.tommy.shop")
 public class ShopAdminApplication {
 
     public static void main(String[] args) {

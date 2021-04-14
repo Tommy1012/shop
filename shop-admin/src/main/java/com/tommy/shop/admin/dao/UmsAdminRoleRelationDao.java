@@ -1,4 +1,4 @@
-package com.tommy.shop.admin.java.com.tommy.shop.dao;
+package com.tommy.shop.admin.dao;
 
 import com.tommy.shop.model.UmsAdminRoleRelation;
 import com.tommy.shop.model.UmsResource;

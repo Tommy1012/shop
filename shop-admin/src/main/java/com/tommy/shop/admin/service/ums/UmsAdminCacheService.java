@@ -1,5 +1,6 @@
-package com.tommy.shop.admin.java.com.tommy.shop.service.ums;
+package com.tommy.shop.admin.service.ums;
 
+import com.tommy.shop.model.UmsAdmin;
 import com.tommy.shop.model.UmsResource;
 
 import java.util.List;
@@ -31,4 +32,14 @@ public interface UmsAdminCacheService {
      * @date 2020/9/21 5:00 下午
      */
     void setResourceList(Long adminId, List<UmsResource> resourceList);
+
+    /**
+     * 获取缓存后台用户信息
+     */
+    UmsAdmin getAdmin(String username);
+
+    /**
+     * 设置缓存后台用户信息
+     */
+    void setAdmin(UmsAdmin admin);
 }

@@ -1,8 +1,10 @@
-package com.tommy.shop.admin.java.com.tommy.shop.service.ums.impl;
+package com.tommy.shop.admin.service.ums.impl;
 
-import com.tommy.shop.admin.java.com.tommy.shop.service.ums.UmsAdminCacheService;
+import com.tommy.shop.admin.service.ums.UmsAdminCacheService;
+import com.tommy.shop.model.UmsAdmin;
 import com.tommy.shop.model.UmsResource;
 import com.tommy.shop.common.service.RedisService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +17,7 @@ import java.util.List;
 @Service
 public class UmsAdminCacheServiceImpl implements UmsAdminCacheService {
 
+    @Autowired
     private RedisService redisService;
 
     @Value("${redis.database}")
@@ -25,6 +28,8 @@ public class UmsAdminCacheServiceImpl implements UmsAdminCacheService {
 
     @Value("${redis.key.resourceList}")
     private String REDIS_KEY_RESOURCE_LIST;
+    @Value("${redis.key.admin}")
+    private String REDIS_KEY_ADMIN;
 
     @Override
     public List<UmsResource> getResourceList(Long adminId) {
@@ -36,5 +41,17 @@ public class UmsAdminCacheServiceImpl implements UmsAdminCacheService {
     public void setResourceList(Long adminId, List<UmsResource> resourceList) {
         String key = REDIS_DATABASE + ":" + REDIS_KEY_RESOURCE_LIST + ":" + adminId;
         redisService.set(key, resourceList, REDIS_EXPIRE);
+    }
+
+    @Override
+    public UmsAdmin getAdmin(String username) {
+        String key = REDIS_DATABASE + ":" + REDIS_KEY_ADMIN + ":" + username;
+        return (UmsAdmin) redisService.get(key);
+    }
+
+    @Override
+    public void setAdmin(UmsAdmin admin) {
+        String key = REDIS_DATABASE + ":" + REDIS_KEY_ADMIN + ":" + admin.getUsername();
+        redisService.set(key, admin, REDIS_EXPIRE);
     }
 }

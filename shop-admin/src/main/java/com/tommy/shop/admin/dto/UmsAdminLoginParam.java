@@ -1,4 +1,4 @@
-package com.tommy.shop.admin.java.com.tommy.shop.dto;
+package com.tommy.shop.admin.dto;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

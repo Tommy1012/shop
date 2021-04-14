@@ -35,17 +35,16 @@ secure:
       - /druid/**
       - /admin/login
       - /admin/register
-      - /admin/info
-      - /admin/logout
-      - /minio/upload
 
 # 自定义redis key
 redis:
-  database: mall
+  database: shop
   key:
+    admin: 'ums:admin'
     authCode: 'ums:authCode'
     orderId: 'oms:orderId'
     member: 'ums:member'
+    resourceList: 'ums:resourceList'
   expire:
     authCode: 90 # 验证码超期时间
     common: 86400 # 24小时

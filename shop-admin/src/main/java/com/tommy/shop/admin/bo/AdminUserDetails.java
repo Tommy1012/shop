@@ -1,4 +1,4 @@
-package com.tommy.shop.admin.java.com.tommy.shop.bo;
+package com.tommy.shop.admin.bo;
 
 import com.tommy.shop.model.UmsAdmin;
 import com.tommy.shop.model.UmsResource;

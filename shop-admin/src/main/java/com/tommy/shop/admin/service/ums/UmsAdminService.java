@@ -1,14 +1,11 @@
-package com.tommy.shop.admin.java.com.tommy.shop.service.ums;
+package com.tommy.shop.admin.service.ums;
 
 
-import com.tommy.shop.admin.java.com.tommy.shop.dto.UmsAdminParam;
-import com.tommy.shop.admin.java.com.tommy.shop.dto.UpdateAdminPasswordParam;
+import com.tommy.shop.admin.dto.UmsAdminParam;
 import com.tommy.shop.model.UmsAdmin;
-import com.tommy.shop.model.UmsPermission;
 import com.tommy.shop.model.UmsResource;
 import com.tommy.shop.model.UmsRole;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
